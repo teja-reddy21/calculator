@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Keypad = ({handleClick,handleClear,calculate}) => {
+   
   return (
-    <div className='keypad'>
+   <div className='keypad'>
       <div className='row'>
           <button className='digit' onClick={()=>{handleClick("7")}}>7</button>
           <button className='digit' onClick={()=>{handleClick("8")}}>8</button>
